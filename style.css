@@ -70,7 +70,7 @@ section.descrição h2 {
     font-size: 40px;
     color: rgb(146, 78, 78);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: ;
+
 }
 
 
@@ -82,6 +82,18 @@ section.descrição p {
     margin: 15px 0;
 }
 
+.fa-facebook::before{
+    color: white;
+}
+
+.fa-instagram::before
+{
+    color: white;
+}
+    
+i {
+    font-size: 20px;
+}
 
 @media (max-width: 600px) {
     .sidebar {
