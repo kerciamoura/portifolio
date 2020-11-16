@@ -81,3 +81,45 @@ section.descrição p {
     color: snow;
     margin: 15px 0;
 }
+
+
+@media (max-width: 600px) {
+    .sidebar {
+        width: 100%;
+        height: 15%;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .content {
+        width: 100%;
+        left: 0%;
+    }
+
+    .sidebar-pos {
+        top: 50%;
+        display: flex;
+    }
+
+    .menu {
+        flex-direction: row;
+        width: 70%;
+        align-items: center;
+    }
+
+    .menu a {
+        margin-bottom: 0px;
+        margin-right: 5px;
+        font-size: 18px;
+    }
+
+    .img-sidebar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-sidebar img {
+        width: 70%;
+    }
+}
